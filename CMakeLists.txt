@@ -9,10 +9,10 @@ endif()
 
 set(
   CURVE
-  "BN128"
+  "DALEK"
   CACHE
   STRING
-  "Default curve: one of ALT_BN128, BN128, EDWARDS, MNT4, MNT6"
+  "Default curve: one of ALT_BN128, BN128, EDWARDS, MNT4, MNT6, DALEK"
 )
 
 option(

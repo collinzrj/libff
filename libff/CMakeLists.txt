@@ -45,6 +45,11 @@ add_library(
   algebra/curves/mnt/mnt6/mnt6_init.cpp
   algebra/curves/mnt/mnt6/mnt6_pairing.cpp
   algebra/curves/mnt/mnt6/mnt6_pp.cpp
+  algebra/curves/dalek/dalek_g1.cpp
+  algebra/curves/dalek/dalek_g2.cpp
+  algebra/curves/dalek/dalek_init.cpp
+  algebra/curves/dalek/dalek_pairing.cpp
+  algebra/curves/dalek/dalek_pp.cpp
   common/double.cpp
   common/profiling.cpp
   common/utils.cpp

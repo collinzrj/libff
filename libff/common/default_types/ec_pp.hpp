@@ -55,6 +55,14 @@ typedef mnt6_pp default_ec_pp;
 } // libff
 #endif
 
+#ifdef CURVE_DALEK
+#define LIBFF_DEFAULT_EC_PP_DEFINED
+#include <libff/algebra/curves/dalek/dalek_pp.hpp>
+namespace libff {
+typedef dalek_pp default_ec_pp;
+} // libff
+#endif
+
 #ifndef LIBFF_DEFAULT_EC_PP_DEFINED
 #error You must define one of the CURVE_* symbols to pick a curve for pairings.
 #endif
